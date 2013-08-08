@@ -1,9 +1,3 @@
-[mssavai:~]$head -n3 index.html 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-
-[mssavai:~]$cat checks.json 
 ["h1",
  ".navigation",
  ".logo",
@@ -20,23 +14,3 @@
 ".section2",
 ".faq",
 ".footer"]
-
-[mssavai:~]$./grader.js --checks checks.json --file http://peaceful-savannah-1455.herokuapp.com
-{
-   "h1":true,
- ".navigation":true,
- ".logo":true,
-".blank":true,
-".about":true,
-".heading":true,
-".subheading":true,
-".pitch":true,
-".video":true,
-".thermometer":true,
-".order":true,
-".social":true,
-".section1":true,
-".section2":true,
-".faq":true,
-".footer":true
-}
